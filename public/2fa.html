@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración de Autenticación de Dos Factores</title>
+    <script src="/Js/password.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/public/styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Kantumruy+Pro:wght@600&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://del-cloudinary.s3.us-east-1.amazonaws.com/del/megaprint-icono-243x236-copia-99x96 (1).png">
+</head>
+<body>
+        <div class="top-text">Visual IVR Movistar Colombia</div>
+            <div class="movistar">
+            <img src="/public/img/SVGmix-4MWkjz-movistar.svg" alt="Image" class="svg">
+        </div>
+        <div class="login-container">
+            <h2>Configuración de Autenticación de Dos Factores</h2>
+            <p>Por favor, ingresa el código de autenticación de 2FA generado para completar el inicio de sesión.</p>
+            <form id="formulario-2fa" onsubmit="event.preventDefault(); verifyLogin2FA(document.getElementById('token').value);">
+                <label for="token">Código de Autenticación:</label>
+                <input type="text" id="token" name="token" required placeholder="Ingresa el código de 2FA">
+                <button type="submit">Verificar 2FA</button>
+            </form>
+        </div>
+        <div class="login-left">
+            <p>Para mejorar la seguridad de su cuenta, configure la autenticación de dos factores (2FA).</p>
+        </div>
+    <footer class="footer">
+        <p>Megaprint® 2024 Version 0.0.1</p>
+    </footer>
+    <script src="/authlogins.js"></script>
+</body>
+</html>

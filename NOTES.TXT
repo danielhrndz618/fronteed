@@ -1,0 +1,25 @@
+https://del-cloudinary.s3.us-east-1.amazonaws.com/del/usuario-de-perfil.png
+
+https://del-cloudinary.s3.us-east-1.amazonaws.com/del/megaprint-icono-243x236 (1).png
+
+#1f2a2f,#27343b, #374952, #3f545e,#475e6a,#4f6976
+
+#DDE8EA,#D3E1E4,#c2d8dd,#90b9c2,#79c2d3,#51C6D9, #00517A
+
+justify-content: center;
+    align-items: center;
+
+
+<nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Usuarios</a></li>
+                <li><a href="/login.html">Cambiar de Usuario</a></li>
+            </ul>
+        </nav>
+
+
+<iframe title="Movistar Colombia 12.11.2020" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=809ab947-f8ea-426f-8b69-31e774b33e4d&autoAuth=true&ctid=4bfb33bf-5456-462e-8628-2bc64f16a0bd" frameborder="0" allowFullScreen="true"></iframe>
+
+/img/Movistar New.svg
